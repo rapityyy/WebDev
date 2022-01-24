@@ -1,92 +1,36 @@
 
 body{
-  /* background-color: white; */
-  margin: 0;
+  background-color: black;
+
+}
+
+#navbarMain{
   text-align: center;
-  font-family: "Lucida Console", Monospace;
+  background-color: black;
+  color: white;
+  padding: 2% 7%;
 }
 
-.top-container{
-  background-color: #79DAF9;
+.nav-item{
+  margin-right: 30px;
+}
+
+
+.slide-main-box{
   text-align: center;
 }
 
-.middle-container{
-  margin: 150px 0 0 0;
-  width: 5.65rem;
-}
-
-.bottom-container{
-  clear: left;
+.carousel-item{
   text-align: center;
-  background-color: #79DAF9;
-  width: 100%;
-  height: 100%;
-  padding: 100px 0 50px 0;
-}
-
-h1{
-  font-family: "Lucida Console", Monospace;
-  margin: 0;
-  padding: 5rem 0 0 0;
-  height: 6rem;
-}
-
-.menu-main{
   position: relative;
-  float: left;
-  list-style: none;
-  clear: left;
-  margin: 1.0rem;
-  padding: 0 0 100px 0;
-}
-.menu-list{
-
+  padding: 5% 15%;
 }
 
-hr{
-  width: 6.0rem;
-  color: black;
-}
-
-.menu-text{
-  text-align: left;
-}
-
-a{
-  color: black;
+.painting{
   text-align: center;
-  text-decoration: none;
-}
-a:hover{
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, white, #7EEFED);
-  background-image: -moz-linear-gradient(top, white, #7EEFED);
-  background-image: -ms-linear-gradient(top, white, #7EEFED);
-  background-image: -o-linear-gradient(top, white, #7EEFED);
-  background-image: linear-gradient(to bottom, white, #7EEFED);
-  text-decoration: none;
+  padding: 5% 27%;
 }
 
-button{
-  border-radius: 60px;
-  box-shadow: 0 0 2px #888;
-  padding: 0.5em 0.6em;
-}
-
-.fb{
-  height: 1.3rem;
-  width: 1.3rem;
-  background-repeat: no-repeat;
-}
-
-.etsy{
-  height: 1.3rem;
-  width: 1.3rem;
-  background-repeat: no-repeat;
-}
-.ig{
-  height: 1.3rem;
-  width: 1.3rem;
-  background-repeat: no-repeat;
+#email-Contact{
+  
 }

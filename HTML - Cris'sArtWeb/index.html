@@ -1,64 +1,132 @@
 <!DOCTYPE html>
-
-<!-- BOILER PLATE!!!!!!!
-<!DOCTYPE html>
-<head>
-  <meta charset="utf-8">
-  <title> ♥ Anh Le's Site</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head> -->
-
-<body>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title> ♥ Cristine.arts ♥ </title>
+  <title>cristine.arts</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
 </head>
-
-
-<div class="top-container">
-  <h1>♥ Cristine.arts ♥</h1>
-</div>
-
-<div class="middle-container">
-  <div class="menu-main">
-    <ol class="menu-list">
-        <div class="side-menu1">
-          <a class= "menu-text" href="">Portfolio</a>
-        </div>
-      <hr>
-        <div class="side-menu2">
-          <a class= "menu-text" href="">About Me</a>
-        </div>
-      <hr>
-        <div class="side-menu3">
-          <a class= "menu-text" href="">Contact</a>
-        </div>
-      <hr>
-    </ol>
-  </div>
-</div>
-
-<div class="bottom-container">
-  <div class="contac-infos">
-    <ol class="bottom-icons">
-      <button type="button"><image src="css/images/fb-icon.png" class="fb"></image></button>
-      <button type="button" ><image src="css/images/etsy-icon.png" class="etsy"></image></button>
-      <button type="button"><image src="css/images/ig-icon.png" class="ig"></image></button>
-    </ol>
-  </div>
-</div>
 
 <body>
 
+  <section id="navbarMain">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="#navbarMain">cristine.arts</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerSlide">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerSlide">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#slides">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#slides">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#slides">Social</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </section>
+  <section id="slides">
 
 
+    <div class="slide-main-box container-fluid">
+      <div id="slide-art" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card text-center">
+              <div class="card-header">
+                <h2>Painting Name 1</h2>
+              </div>
+              <div class="painting card-body">
+              <img class="d-block w-20" src="css/images/slides/slide0.jpeg" alt="First slide">
+              </div>
+              <div class="card-footer">
+                <p>Painting describtion Here Blah blah blah...</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-center">
+              <div class="card-header">
+                <h2>Painting Name 2</h2>
+              </div>
+              <div class="painting card-body">
+                <img class="d-block w-20" src="css/images/slides/slide1.jpeg" alt="Second slide">
+              </div>
+              <div class="card-footer">
+                <p>Painting describtion Here Blah blah blah...</p>
+              </div>
+            </div>
 
-  <!-- <a href="hobbies.html">My hobbies</a>
-  <a href="contact-info.html">My Contact</a> -->
+          </div>
+          <div class="carousel-item">
+            <div class="card text-center">
+              <div class="card-header">
+                <h2>Painting Name 3</h2>
+              </div>
+              <div class="painting card-body">
+                <img class="d-block w-20" src="css/images/slides/slide2.jpeg" alt="Third slide">
+              </div>
+              <div class="card-footer">
+                <p>Painting describtion Here Blah blah blah...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#slide-art" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#slide-art" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+<section id="email-Contact">
+<div class="container-fluid">
+
+  <div class="email-box">
+
+    <div class="contact-info">
+      
+    </div>
+
+    <div class="contact-img">
+
+    </div>
+
+  </div>
+
+</div>
+</section>
 
 </body>
 
