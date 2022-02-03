@@ -42,7 +42,7 @@ function checkUserInput(currentPattern){
     playSound("wrong")
     $("body").addClass("game-over");    // add an CSS class to change body
 
-    $("#level-title").text("Game Over, Press Any Key to Restart!");
+    $("#level-title").text("Game Over. Your last color was " + gamePattern[gamePattern.length-1] + '...');
     setTimeout(function(){
       $("body").removeClass("game-over");
     }, 200);
