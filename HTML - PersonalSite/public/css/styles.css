@@ -1,0 +1,76 @@
+html, body{
+  font-family: "Montserrat";
+  text-align: center;
+
+  height: 100%;
+  margin: 0;
+}
+
+
+/* SECTION -TITLE- */
+#title{
+  height: 100%;
+
+  background-color: #ff4c68;
+  color: black;
+  text-align: left;
+}
+
+.title-container{
+
+  /* height: 100%;
+  margin: 0; */
+}
+
+.main-title{
+  /* background-color: red; */
+  margin: 20%;
+  text-align:left;
+}
+
+#title .container-fluid {
+  text-align: center;
+  /* padding: 3% 15% 7%; */
+}
+
+
+.each-social{
+  /* padding-left: 1%; */
+  margin: 2% 5% 2% 0;
+}
+
+
+
+/* SECTION -ABOUT- */
+#about{
+  height: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.about-section{
+  margin-top: 10%;
+}
+
+.personal-desc, .bottom-profile {
+  text-align: left;
+}
+
+.skill1{
+}
+
+
+#resume{
+  height: 100%;
+  background-color: cyan;
+  color: blue;
+  text-align: center;
+}
+
+#projects{
+  height: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}

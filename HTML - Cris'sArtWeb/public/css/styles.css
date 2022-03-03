@@ -1,0 +1,142 @@
+html, body {
+  text-align: center;
+  background-color: #F6F5EB;
+
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
+#title{
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+}
+
+
+#navbarMain {
+  text-align: center;
+  font-size: 2rem;
+  padding-left: 34%;
+  padding-top: 10%;
+  font-family: "pancake_syrup__texturedRg";
+}
+
+#slideshow2{
+  /* background-color: black; */
+  height: 100%:
+}
+
+
+.eachMenu {
+  color: white;
+}
+
+.titleDiv {
+  color: black;
+  padding-top: 10%;
+  font-family: "browncakeregular";
+}
+
+.container{
+  text-align: center;
+}
+
+.owl-carousel .item .img {
+  display: block;
+  width: 200px;
+  height: 300px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#about{
+  color: white;
+  background-color: black;
+  text-align: left;
+  height: 100%;
+  font-family: "browncakeregular";
+}
+
+.profile-container{
+  /* padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px; */
+    /* width: 100%;
+    height: 100%; */
+    padding-top: 120px;
+}
+
+.profile-div{
+  height: 100%;
+    width: 100%;
+}
+
+.right-profile, .left-profile{
+
+}
+.left-profile{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.profile-pic{
+  max-width:100%;
+  max-height:100%;
+  /* object-fit: contain; */
+   /* object-fit: cover; */
+}
+
+.profile-desc{
+  font-size: 1rem;
+}
+
+
+/* .left-profile, .right-profile{
+  height: 100%;
+} */
+
+#contact{
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  background: black;
+  color: white;
+}
+.contact-title{
+  padding-left: 158px;
+  font-family: "browncakeregular";
+}
+
+.contact-p, .contact-h{
+  color: #F6F5EB;
+}
+.contact-h{
+  padding-top: 50px;
+}
+.contact-p{
+  padding-top: 20px;
+  font-family: "pancake_syrup__texturedRg";
+}
+
+.form-container{
+  width: 80%;
+  color: black;
+  font-family: "browncakeregular";
+}
+.button{
+  background-color: #F6F5EB;
+  color: black;
+}
