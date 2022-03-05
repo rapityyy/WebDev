@@ -1,0 +1,40 @@
+html, body {
+  text-align: center;
+  background-color: #F6F5EB;
+
+  height: 100%;
+  margin: 0;
+}
+
+#contact{
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  background: black;
+  color: white;
+}
+.contact-title{
+  padding-left: 158px;
+  font-family: "browncakeregular";
+}
+
+.contact-p, .contact-h{
+  color: #F6F5EB;
+}
+.contact-h{
+  padding-top: 50px;
+}
+.contact-p{
+  padding-top: 20px;
+  font-family: "pancake_syrup__texturedRg";
+}
+
+.form-container{
+  width: 80%;
+  color: black;
+  font-family: "browncakeregular";
+}
+.button{
+  background-color: #F6F5EB;
+  color: black;
+}

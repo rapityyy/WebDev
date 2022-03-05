@@ -38,23 +38,32 @@ app.post("/", function(req, res) {
 
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us14.mailchimp.com/3.0/lists/f7f1304505";
+  const url = "https://us14.api.mailchimp.com/3.0/lists/f7f1304505";
 
   const options= {
     method: "POST",
-    auth: "anhle1:3ed34bc4d2c74af3d37bbedd232d36b7-us14",
-  }
+    auth: "anhle1:3ed34bc42c74af3d37bbedd232d36b7-us14",
+  };
 
   const request = https.request(url, options, function(response){
     response.on("data", function(data){
-      // console.log(JSON.parse(data));
-      console.log(typeof(data) );
+      // if the code is 200 - success
+      if(response.statusCode == 200){
+        // res.send("Success");
+        res.sendFile(__dirname + "/success.html");
+      }
+      // else
+      else{
+        // res.send("Failure");
+        res.sendFile(__dirname + "/failure.html");
+      }
+
+      console.log(JSON.parse(data));
     })
   });
 
   request.write(jsonData);
   request.end();
-
 
 });
 
@@ -67,6 +76,10 @@ app.post("/", function(req, res) {
 //   console.log("Your BMI is " + bmi);
 //   res.send("Your BMI is " + bmi);
 // });
+
+app.post("/failure", function(req, res){
+  res.redirect("/");
+});
 
 app.listen(3000, function() {
   console.log("Server is running at 3000");
