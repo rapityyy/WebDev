@@ -15,6 +15,18 @@ app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
+app.get("/about", function(req, res) {
+  res.sendFile(__dirname + "/about.html");
+});
+
+app.get("/portfolio", function(req, res) {
+  res.sendFile(__dirname + "/portfolio.html");
+});
+
+app.get("/contact", function(req, res) {
+  res.sendFile(__dirname + "/contact.html");
+});
+
 
 // app.post("/", function(req, res) {
 //   var firstName = req.body.fName;

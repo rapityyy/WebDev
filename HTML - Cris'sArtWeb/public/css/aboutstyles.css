@@ -7,8 +7,7 @@ html, body {
 }
 
 #about{
-  color: white;
-  background-color: black;
+  color: black;
   text-align: left;
   height: 100%;
   font-family: "browncakeregular";
@@ -49,7 +48,18 @@ html, body {
   font-size: 1rem;
 }
 
+/* NAVBAR */
+#navbarMain {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "pancake_syrup__texturedRg";
+}
 
-/* .left-profile, .right-profile{
-  height: 100%;
-} */
+.eachMenu {
+  color: white;
+}
+
+
+.container{
+  text-align: center;
+}

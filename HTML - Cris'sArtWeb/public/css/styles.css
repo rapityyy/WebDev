@@ -21,30 +21,23 @@ p {
     height: 100%;
 }
 
-
-#navbarMain {
-  text-align: center;
-  font-size: 2rem;
-  padding-left: 34%;
-  padding-top: 10%;
-  font-family: "pancake_syrup__texturedRg";
-}
-
-#slideshow2{
-  /* background-color: black; */
-  height: 100%:
-}
-
-
-.eachMenu {
-  color: white;
-}
-
 .titleDiv {
   color: black;
   padding-top: 10%;
   font-family: "browncakeregular";
 }
+
+/* NAVBAR */
+#navbarMain {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "pancake_syrup__texturedRg";
+}
+
+.eachMenu {
+  color: white;
+}
+
 
 .container{
   text-align: center;

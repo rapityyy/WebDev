@@ -15,3 +15,25 @@ html, body {
   border-radius: 3px;
   padding: 5px;
 }
+
+
+#slideshow2{
+  /* background-color: black; */
+  height: 100%:
+}
+
+/* NAVBAR */
+#navbarMain {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "pancake_syrup__texturedRg";
+}
+
+.eachMenu {
+  color: white;
+}
+
+
+.container{
+  text-align: center;
+}
